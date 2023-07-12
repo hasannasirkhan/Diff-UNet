@@ -19,7 +19,7 @@ from guided_diffusion.resample import UniformSampler
 set_determinism(123)
 import os
 
-data_dir = "./datasets/brats2020/MICCAI_BraTS2020_TrainingData/"
+data_dir = "./kaggle/input/brats20-dataset-training-validation/BraTS2020_TrainingData/MICCAI_BraTS2020_TrainingData/"
 logdir = "./logs_brats/diffusion_seg_all_loss_embed/"
 
 model_save_path = os.path.join(logdir, "model")
